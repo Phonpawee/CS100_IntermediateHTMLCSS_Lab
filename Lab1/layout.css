@@ -3,3 +3,14 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, article, div, footer {
+    padding: 10px;
+    background-color: #fcf6bd;
+    border: 1px solid gray;
+    text-align: center;
+}
