@@ -75,12 +75,23 @@ nav {
 ### Step 3: Adjust the Main Content Width
 - Modify the CSS `main` section to ensure the main content takes up the remaining width of the page and floats to the right of the sidebar.
 ```css
+main {
+    padding: 20px;
+    width: 72%;
+    float: right;
+}
 ```
 
 ---
 ### Step 4: Styling the Footer
 - Since the `nav` and `main` sections are floated, ensure the footer stays below them by clearing the floats by adding relevant CSS styles to achieve this.
 ```css
+footer {
+    background-color: #ffe066;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
 ```
 
 ---
